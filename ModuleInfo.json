@@ -1,0 +1,18 @@
+{
+  "Name": "BgmChangeObj",
+  "Author": "Super Hackio",
+  "Description": "Controls the background music based on a switch",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "BgmChangeObj",
+          "Function": "createExtActor<BgmChangeObj>",
+          "Include": "BgmChangeObj.h"
+        }
+      ]
+    }
+  ]
+}
